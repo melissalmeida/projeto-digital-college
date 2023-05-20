@@ -105,6 +105,6 @@ header nav ul li a#active::after{
     border-radius: 2px;
     width: 45px;
     height: 2px;
-    top: 23px;
+    top: 22px;
     left: 0px;
 }
