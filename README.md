@@ -1,2 +1,2 @@
-# projeto-fs02-e1
+# projeto-digital-college
 Repositório para Projeto em Equipe - Turma 02 FullStack Digital College
