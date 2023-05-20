@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    min-width: 100%;
+    max-height: 192px;
+    display: block;
+    align-items: center;
+    padding: 30px 70px 10px 200px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header > div > h1 {
+    display: inline-block;
+    align-items: center;
+    color: #c92071;
+    font-weight: 600;
+    font-size: 36px;
+    padding-left: 8px;
+}
+
+header div img {
+    height: 100%;
+}
+
+header form {
+    position: relative;
+}
+
+header form input {
+    min-width: 650px;
+    min-height: 60px;
+    background-color: #F8F8F8;
+    border-radius: 6px;
+    color: #A0A0A0;
+    font-size: 16px;
+    padding: 24px;
+    margin-left: 57px;
+    margin-right: 78px;
+}
+
+header form i {
+    position: absolute;
+    bottom: 22px;
+    left: 670px;
+    color: #A0A0A0;
+}
+
+header span a {
+    font-size: 16p;
+    color: #474747;
+    text-decoration: underline;
+    margin-right: 50px;
+    letter-spacing: 1px;
+}
+
+header button {
+    width: 114px;
+    height: 40px;
+    background-color: #c92071;
+    border-radius: 8px;
+    margin-right: 100px;
+    font-weight: 700;
+    color: white;
+}
+
+header a i {
+    color: #c92071;
+    font-size: 20px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 42px;
+    margin-top: 48px;
+    position: relative;
+}
+
+header nav ul li a {
+    color: #A0A0A0;
+}
+
+header nav ul li a#active {
+    color: #c92071;
+    font-weight: 700;
+}
+
+header nav ul li a#active::after{
+    content: "";
+    background-color: #c92071;
+    position: absolute;
+    border-radius: 2px;
+    width: 45px;
+    height: 2px;
+    top: 23px;
+    left: 0px;
+}
