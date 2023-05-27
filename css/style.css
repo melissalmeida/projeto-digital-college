@@ -129,3 +129,122 @@ nav ul li a#active::after{
     top: 22px;
     left: 0px;
 }
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5em;
+    background: #E5E5E5;;
+}
+
+section h2{
+    display: flex;
+    justify-self:flex-start;
+    margin-left: 8rem;
+    color: #474747;
+}
+
+section h1{
+    color: #1F1F1F;
+}
+
+section .destaque{
+    display: flex;
+    justify-content: center;
+}
+section .itens{
+    display: flex;
+    background-color: #D8E3F2;
+    height: 251px;
+    width: 405px;
+    border-radius: 8px;
+    margin-top: 4px;
+    margin-right: 1em;
+}
+
+section span{
+    background:#E7FF86;
+    color:#474747;
+    border-radius: 29px;
+    padding: 5px;
+}
+
+section .itens button{
+    width: 153px;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 1em;
+    background: #F5F5F5;
+    color: #C92071;
+    font-weight: bold;
+}
+
+section .itens img{
+    display:block;
+    position:static;
+    width: 355px;
+    height: 236px;
+}
+
+section .itens .informacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align:start;
+    margin-left: 30px;
+    width: 172px;
+    
+}
+
+section h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    color: #474747;
+}
+
+section .colecao{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 3em;
+}
+
+section .sessao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 3em;
+    font-weight: bold;
+    color:#474747;
+}
+
+section .produtosEmAlta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+
+}
+
+section .produtosEmAlta .produtos{
+    Width:292px;
+    Height:321px;
+    margin-right: 1em;
+    background:#FFFFFF;
+    
+}
+section .produtosEmAlta p,h6{
+    color: #474747;
+    margin-top: 1em;
+}
+
+
+section .produtosEmAlta p{
+    Width:180px;
+    Height:38px;
+
+}
