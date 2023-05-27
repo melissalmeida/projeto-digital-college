@@ -135,13 +135,14 @@ section{
     flex-direction: column;
     justify-content: center;
     margin-top: 5em;
-    background: #E5E5E5;;
+    background: #F5F5F5;
 }
 
 section h2{
     display: flex;
     justify-self:flex-start;
-    margin-left: 8rem;
+    margin-left: 2rem;
+    margin-bottom: 1em;
     color: #474747;
 }
 
@@ -157,7 +158,7 @@ section .itens{
     display: flex;
     background-color: #D8E3F2;
     height: 251px;
-    width: 405px;
+    width: 385px;
     border-radius: 8px;
     margin-top: 4px;
     margin-right: 1em;
@@ -247,4 +248,9 @@ section .produtosEmAlta p{
     Width:180px;
     Height:38px;
 
+}
+
+section .produtosEmAlta .produtos{
+    box-shadow: 6px 16ps 30px #69622625;
+    border-radius: 4px;
 }
