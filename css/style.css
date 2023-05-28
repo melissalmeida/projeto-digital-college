@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     border: 0;
@@ -10,32 +10,27 @@
     font-family: 'Inter', sans-serif;
 }
 
-header {
+header{
     max-width: 1400px;
     margin: auto;
-
     display: flex;
     flex-direction: column;
     gap: 3rem;
-
     padding: 2rem 4rem 0;
-
     padding-bottom: 2rem;
 }
 
-#header-first-line {
+#header-first-line{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     gap: 2rem;
 }
 
-#logo {
+#logo{
     display: flex;
     align-items: center;
     gap: 0.5rem;
-
     min-width: fit-content;
 }
 
@@ -229,7 +224,6 @@ section .produtosEmAlta{
     justify-content: center;
     align-items: center;
     padding: 3em;
-
 }
 
 section .produtosEmAlta .produtos{
@@ -237,21 +231,26 @@ section .produtosEmAlta .produtos{
     Height:321px;
     margin-right: 1em;
     background:#FFFFFF;
-    
 }
+
 section .produtosEmAlta p,h6{
     color: #474747;
     margin-top: 1em;
 }
 
-
 section .produtosEmAlta p{
     Width:180px;
     Height:38px;
-
 }
 
 section .produtosEmAlta .produtos{
     box-shadow: 6px 16ps 30px #69622625;
     border-radius: 4px;
+    padding: 1em;
+}
+
+.desconto{
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    display: inline-flex;
 }
