@@ -1,13 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans&family=Pacifico&display=swap");
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-  border: 0px;
-  font-family: "Inter", sans-serif;
-}
 
 footer {
   background-color: #1f1f1f;
@@ -33,7 +24,7 @@ footer h5 {
     padding: 0 0 20px 0;
 }
 
-.container {
+.footer-container {
   display: flex;
   flex: 1;
   align-items: start;
@@ -41,7 +32,7 @@ footer h5 {
   flex-wrap: wrap;
 }
 
-.main-footer .container .logo-wraper {
+.main-footer .footer-container .logo-wraper {
   max-width: 400px;
   padding: 0 90px 0 0;
 }
@@ -51,20 +42,21 @@ footer h5 {
   list-style-type: none;
   gap: 35px;
   margin: 35px 0 0 0;
+  padding-left: 0.5rem;
 }
 .main-footer .logo-wraper img.logo {
   width: 240px;
   margin: 0 0 35px 0;
 }
-.main-footer .container .navOne {
+.main-footer .footer-container .navOne {
   padding: 0 40px;
 }
 
-.main-footer .container .navTwo {
+.main-footer .footer-container .navTwo {
   padding: 0 40px;
 }
 
-.main-footer .container .divContact {
+.main-footer .footer-container .divContact {
   padding: 0 0 0 90px;
   max-width: 300px;
 }
@@ -84,4 +76,22 @@ footer h5 {
 
 .main-footer .copyrights p{
     font-size: 11px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo span{
+  font-size: 2.5rem;
+  padding-left: 0.5rem;
+}
+
+.logo-wraper p{
+  padding-top: 1.5rem;
+}
+
+.footer-lists {
+  display: block;
 }
