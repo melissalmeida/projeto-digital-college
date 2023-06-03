@@ -29,7 +29,7 @@
 #banner .texts > h1{
     font-size: 50px;
     font-weight: 700;
-    max-width: 500px;
+    min-width: 480px;
     letter-spacing: 1px;
     color: #1F1F1F;
 }
