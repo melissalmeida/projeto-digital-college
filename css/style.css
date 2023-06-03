@@ -229,7 +229,8 @@ section .produtosEmAlta{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3em;
+    padding: 0.5em;
+    padding-bottom: 3em;
 }
 
 section .produtosEmAlta .produtos{
@@ -270,7 +271,7 @@ section .produtosEmAlta .produtos{
     justify-content: center;
     gap: 6.7rem;
 
-    padding: 6rem 15.9rem;
+    padding: 6rem 11rem;
 }
 
 #special-ad > :first-child {
@@ -331,9 +332,10 @@ section .produtosEmAlta .produtos{
     color: #f5f5f5;
 }
 
-@media screen and (max-width: 1025px){
+@media screen and (max-width: 1025px) {
     header form,
     #header-actions,
     nav{
         visibility: hidden;
-    }
+}
+}
