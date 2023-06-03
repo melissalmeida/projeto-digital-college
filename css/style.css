@@ -10,6 +10,11 @@
     font-family: 'Inter', sans-serif;
 }
 
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 header{
     max-width: 1400px;
     margin: auto;
@@ -17,7 +22,6 @@ header{
     flex-direction: column;
     gap: 3rem;
     padding: 2rem 4rem 0;
-    padding-bottom: 2rem;
 }
 
 #header-first-line{
@@ -44,6 +48,7 @@ header form {
     width: 100%;
     max-width: 60%;
     position: relative;
+
 }
 
 header form input {
@@ -105,6 +110,7 @@ nav ul {
     display: flex;
     gap: 42px;
     position: relative;
+    padding-bottom: 2rem;
 }
 
 nav ul li a {
@@ -137,7 +143,7 @@ section{
 section h2{
     display: flex;
     justify-self:flex-start;
-    margin-left: 2rem;
+    margin-left: 8.2rem;
     margin-bottom: 1em;
     color: #474747;
 }
@@ -254,6 +260,83 @@ section .produtosEmAlta .produtos{
     font-family: 'Inter', sans-serif;
     display: inline-flex;
 }
+
+#special-ad {
+    width: 100%;
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6.7rem;
+
+    padding: 6rem 15.9rem;
+}
+
+#special-ad > :first-child {
+    position: relative;
+}
+
+#special-ad > :first-child img{
+    position: relative;
+    z-index: 1;
+}
+
+#circle {
+    float: left;
+    width: 466px;
+    height: 466px;
+    margin: 20px;
+    border-radius: 50%;
+    clip-path: inset(0px 0px 132px 0px);
+    background-image: linear-gradient(180deg, #B5B6F2 0%, #EFEFFF 30%, #FFF 60%);
+
+    position: absolute;
+    top: -2.8rem;
+    left: 3.9rem;
+}
+
+#aside-ad h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #C92071;
+}
+
+#aside-ad h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    color: #474747;
+    margin-top: 1rem;
+}
+
+#aside-ad p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin: 1rem 0rem;
+}
+
+#aside-ad button {
+    background-color: #C92071;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 14px;
+    color: #f5f5f5;
+}
+
+@media screen and (max-width: 1025px){
+    header form,
+    #header-actions,
+    nav{
+        visibility: hidden;
+    }
 
 footer{
     background-color: #1F1F1F;
