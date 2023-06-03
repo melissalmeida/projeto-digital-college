@@ -10,6 +10,11 @@
     font-family: 'Inter', sans-serif;
 }
 
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 header{
     max-width: 1400px;
     margin: auto;
@@ -17,7 +22,6 @@ header{
     flex-direction: column;
     gap: 3rem;
     padding: 2rem 4rem 0;
-    padding-bottom: 2rem;
 }
 
 #header-first-line{
@@ -44,6 +48,7 @@ header form {
     width: 100%;
     max-width: 60%;
     position: relative;
+
 }
 
 header form input {
@@ -105,6 +110,7 @@ nav ul {
     display: flex;
     gap: 42px;
     position: relative;
+    padding-bottom: 2rem;
 }
 
 nav ul li a {
@@ -137,7 +143,7 @@ section{
 section h2{
     display: flex;
     justify-self:flex-start;
-    margin-left: 2rem;
+    margin-left: 8.2rem;
     margin-bottom: 1em;
     color: #474747;
 }
@@ -323,4 +329,12 @@ section .produtosEmAlta .produtos{
     font-weight: 700;
     font-size: 14px;
     color: #f5f5f5;
+}
+
+@media screen and (max-width: 1025px){
+    header form,
+    #header-actions,
+    nav{
+        visibility: hidden;
+    }
 }
