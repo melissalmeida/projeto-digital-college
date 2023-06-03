@@ -4,6 +4,8 @@ footer {
   background-color: #1f1f1f;
   width: 100%;
   color: white;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 
 .footer-wrapper {
